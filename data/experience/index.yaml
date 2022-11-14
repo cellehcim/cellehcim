@@ -1,7 +1,7 @@
 experiences:
 - company: Earls Kitchen + Bar
   title: Junior Full-Stack Software Developer
-  icon: "/static/images/earls_logo.jpeg"
+  icon: "images/earls_logo.jpeg"
   start_date: Dec 2021
   end_date: Oct 2022
   accomplishments:
@@ -21,7 +21,7 @@ experiences:
   - Zendesk
 - company: Stealth Startup
   title: Junior Software Developer
-  icon: "/static/images/stealth_startup_logo.jpeg"
+  icon: "images/stealth_startup_logo.jpeg"
   start_date: Jul 2021
   end_date: Oct 2021
   accomplishments:
@@ -35,7 +35,7 @@ experiences:
   - Figma
 - company: deenSTRONG
   title: UI/UX Intern
-  icon: "/images/deenstrong_logo.png"
+  icon: "images/deenstrong_logo.png"
   start_date: Jun 2020
   end_date: Aug 2020
   accomplishments:
