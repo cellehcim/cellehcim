@@ -1,0 +1,195 @@
+:root {
+    --light_blue: #02a9ea;
+    --steel_blue: #6096ba;
+    --medium_blue: #0970bb;
+}
+
+@font-face {
+    font-family: Mukta;
+    src: url(../fonts/Mukta/Mukta-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Mukta;
+    src: url(../fonts/Mukta/Mukta-Bold.ttf);
+    font-weight: bold;
+}
+
+body {
+    color: white;
+    font-family: Mukta;
+    background-color: var(--light_blue);
+}
+
+a, a:hover {
+    color: var(--medium_blue);
+    text-decoration: none;
+}
+
+.jumbotron {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.jumbotron.display-4 {
+    margin-top:90%;
+}
+
+#nav-items {
+    text-align: right;
+    margin-top: 1.5em;
+}
+
+a.nav-item {
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+    margin-left: 1.5em;
+
+}
+
+h2 {
+    overflow: hidden;
+}
+
+h2:after {
+    background-color: white;
+    display: inline-block;
+    content: "";
+    height: 4px;
+    position: relative;
+    vertical-align: middle;
+    width: 100%;
+    left: 0.5em;
+    margin-right: -100%;
+}
+
+.container.section {
+    margin-bottom: 5em;
+}
+
+h4 .title-name, .title-name, .employment-duration, .project-title {
+    margin-bottom: 0;
+}
+
+#about-text, .experience-item, .project-item {
+    background-color: white;
+    color: black;
+    border-radius: 1em;
+    padding: 3em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.experience-item img {
+    display: block;
+    height: 64px;
+    width: 64px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.experience-item .employment-duration, .project-links, #socials  {
+    text-align: right;
+}
+
+.experience-item .accomplishments {
+    margin-top: 2em;
+}
+
+.stack-items {
+    margin-top: 2em;
+}
+
+.stack-items li {
+    background-color: var(--steel_blue);
+    color: white;
+    display: inline-block;
+    list-style: none;
+    padding: 0.3rem;
+    margin-bottom: 0.3rem;
+    margin-right: 0.1rem;
+    border-radius: 2px;
+}
+
+ion-icon {
+    font-size: 2em;
+}
+
+.project-links {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.project-icon {
+    margin-right: 0.5em;
+}
+
+a .project-icon,  a:hover .project-icon {
+    color: black;
+}
+
+#footer {
+    margin-top: 3em;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+}
+
+.social-icon {
+    margin-left: 0.5em;
+}
+
+.social-link, .social-link:hover {
+    color: white;
+}
+
+@media (max-width: 1199.98px) {
+    .company-name, .title-name {
+        margin-left: 0.5em
+    }
+}
+
+
+@media (max-width: 991.98px) {
+    .experience-item img {
+        height: 100px;
+        width: 100px;
+        margin: auto;
+    }
+    
+    .employment-duration {
+        margin-left: 0.5em;
+    }
+
+    .experience-item .employment-duration {
+        text-align: left;
+    }
+
+    .social-icon ion-icon {
+        font-size: 2.5em;
+        margin-left: 0.5em;
+    }
+}
+
+
+@media (max-width: 575.98px) { 
+    .company-name {
+        margin-top: 1em;
+    }
+
+    #nav-items, .company-name, .title-name, .experience-item .employment-duration, .project-title, .project-links, .project-description, .project.stack-items {
+        text-align: center;
+    }
+
+    .project-icon {
+        margin-left: 0.25em;
+        margin-right: 0.25em;
+    }
+
+    .social-icon ion-icon {
+        font-size: 3em;
+        margin-left: 0.5em;
+    }
+}

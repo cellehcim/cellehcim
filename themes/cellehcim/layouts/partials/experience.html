@@ -1,0 +1,33 @@
+{{ range $.Site.Data.experience }}
+        {{ range .experiences }}
+            <div class="experience-item">
+                <div class="row align-items-center">
+                    <div class="col-xs-4 col-sm-3 col-md-2 col-lg-1">
+                        <img class="ratio ratio-1x1" src={{ .icon }}/>
+                    </div>
+                    <div class="col-xs-8 col-sm-9 col-md-10 col-lg-11">
+                        <h3 class="company-name">{{ .company }}</h3>
+                        <div class="row ">
+                            <div class="col-md-12 col-lg-8">
+                                <h4 class="title-name">{{.title}}</h4>
+                            </div>
+                            <div class="col-md-12 col-lg-4">
+                                <h4 class="employment-duration">{{.start_date}} - {{.end_date}}</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accomplishments">
+                    {{ range .accomplishments }}
+                    <li>{{ . }}</li>
+                    {{ end }}
+                </div>
+
+                <div class="stack-items">
+                    {{ range .stack }}
+                    <li>{{ . }}</li>
+                    {{ end }}
+                </div>
+            </div>
+        {{ end }}
+    {{ end }}

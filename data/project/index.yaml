@@ -1,0 +1,31 @@
+projects:
+- title: The Unofficial Tales of the Hunger Games API (in-progress)
+  type: Personal
+  links:
+  github_link: "https://github.com/cellehcim/tales-api"
+  website_link: "https://tales-api.herokuapp.com/"
+  description: Before Katniss and Peeta, who were the seventy-three children who won the Hunger Games? Christian Blanco was one of the people who had that question in his head, to which he created a universe containing his answer. This API's end goal is to not only catalog those seventy-three children, but also the twenty-four children after Katniss and Peeta (in an alternative universe Christian also wrote). 
+  stack:
+  - Node.js
+  - Express
+  - Heroku
+- title: The Bus Fuller Golf Classic 2022 Website Redesign
+  type: Work (Earls Kitchen + Bar)
+  github_link: null
+  website_link: "https://thebusfullerclassic.com/"
+  description: With COVID (mostly) out of the way, it's time for another Bus Fuller Classic event at Earls. Marketing also wanted the site to have company branding, along with the usual 2022 information. I not only brought a given desktop wireframe to life, but also designed the mobile interface and mantained the website for the team post-development.  
+  stack:
+  - Django
+  - Bootstrap
+  - jQuery
+  - Google App Engine
+  - Figma
+- title: This site!
+  github_link: "https://github.com/cellehcim/cellehcim"
+  website_link: null
+  type: Personal
+  description: I figured that as I gain experience and work on more projects, I'd add more content for this website. This means manually adding more divs, which wasn't something I felt comfortable doing (due to having more code lines to mantain). I integrated Hugo into this site, so I can power it few easy-to-mantain (and easy-to-read) YAML files. Yum!
+  stack:
+  - Hugo
+  - Bootstrap
+  - Figma

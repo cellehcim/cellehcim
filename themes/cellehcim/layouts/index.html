@@ -1,0 +1,22 @@
+{{ define "main" }}
+<div class="jumbotron jumbotron-fluid">
+    <div id ="jumbotron-text" class="container align-items-center">
+        <h1 class="display-4">Hi there,<br/>I'm Michelle.</h1>
+        <p class="lead">I build things with code.</p>
+    </div>
+</div>
+<div id="about" class="container section">
+    <h2>About</h2>
+    <div id="about-text">
+        {{- partial "about.html" . -}}
+    </div>
+</div>
+<div id="experience" class="container section">
+    <h2>Experience</h2>
+    {{- partial "experience.html" . -}}
+</div>
+<div id="projects" class="container section">
+    <h2>Projects</h2>
+    {{- partial "project.html" . -}}
+</div>
+{{ end }}

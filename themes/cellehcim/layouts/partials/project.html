@@ -1,0 +1,30 @@
+{{ range $.Site.Data.project }}
+{{ range .projects }}
+
+    <div class="project-item">
+        <div class="row align-items-center">
+            <div class="col-xs-12 col-sm-7 col-md-8">
+                <h4 class="project-title">{{ .title }}</h4>
+            </div>
+            <div class="col-xs-12 col-sm-5 col-md-4 project-links">
+                {{ with .github_link}}
+                    <a href={{ . }}><ion-icon class="project-icon" name="logo-github"></ion-icon></a>
+                {{ end }}
+                {{ with .website_link}}
+                <a href={{ . }}><ion-icon class="project-icon" name="open-outline"></ion-icon></a>
+                {{ end }}
+            </div>
+        </div>
+
+        <div class="project-description">
+            {{ .description }}
+        </div>
+
+        <div class="project stack-items">
+            {{ range .stack }}
+            <li>{{ . }}</li>
+            {{ end }}
+        </div>
+    </div>
+    {{ end }}
+{{ end }}
