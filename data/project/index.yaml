@@ -21,7 +21,7 @@ projects:
   - Google App Engine
   - Figma
 - title: This site!
-  github_link: "https://github.com/cellehcim/cellehcim"
+  github_link: "https://github.com/cellehcim/cellehcim.github.io"
   website_link: null
   type: Personal
   description: I figured that as I gain experience and work on more projects, I'd add more content for this website. This means manually adding more divs, which wasn't something I felt comfortable doing (due to having more code lines to mantain). I integrated Hugo into this site, so I can power it few easy-to-mantain (and easy-to-read) YAML files. Yum!
