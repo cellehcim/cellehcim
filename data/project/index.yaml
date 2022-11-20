@@ -1,8 +1,8 @@
 projects:
-- title: The Unofficial Tales of the Hunger Games API (in-progress)
+- title: The Unofficial Tales of the Hunger Games API
   github_link: "https://github.com/cellehcim/tales-api"
   website_link: "https://tales-api.herokuapp.com/"
-  description: Before Katniss and Peeta, who were the seventy-three children who won the Hunger Games? Christian Blanco was one of the people who had that question in his head, to which he created a universe containing his answer. This API's end goal is to not only catalog those seventy-three children, but also the twenty-four children after Katniss and Peeta (in an alternative universe Christian also wrote). 
+  description: Before Katniss and Peeta, who were the seventy-three children who won the Hunger Games? Christian Blanco was one of the people who had that question in his head, to which he created a universe containing his answer. This API catalogs those seventy-three children (along with Katniss and Peeta as Victors).
   stack:
   - Node.js
   - Express
