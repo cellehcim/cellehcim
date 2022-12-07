@@ -1,4 +1,14 @@
 experiences:
+- company: HCLTech
+  title: Junior Back-End Software Developer
+  icon: /images/hcl_logo.jpeg
+  start_date: Dec 2022
+  end_date: present
+  accomplishments:
+  - Implementing solutions for FinTech companies. More to come!
+  stack:
+  - Springboot
+  - React
 - company: Earls Kitchen + Bar
   title: Junior Full-Stack Software Developer
   icon: /images/earls_logo.jpeg
